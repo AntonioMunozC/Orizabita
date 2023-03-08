@@ -1,0 +1,476 @@
+body{
+   color: #333;
+   font-size: 1.3rem;
+   line-height: 1.3em;
+   margin: 0;
+}
+.introduction{
+    background-color: white;
+    margin: 1rem;
+    padding: 2rem;
+    width: 75%;
+    height: auto;
+    text-align: justify;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.introduction p{
+    color: var(--main-color-brown);
+}
+.about{
+    background-color: var(--main-color-brown);
+    color: white;
+    padding: 3rem;
+    width: 27vw;
+    height: 27vw;
+    margin: 1rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    min-width: 450px;
+    min-height: 450px;
+}
+.about p , .introduction p{
+    font-size: 0.8em;
+    margin: 0.5rem 0 0 0;
+    justify-content:space-around;
+}
+.about h2{
+    width: 100%;
+    text-align: center;
+}
+.about-img{
+    width: 5rem;
+    background-color: rgba(0,0,0,.2);
+    padding: 0.5rem;
+}
+.section-title{
+    display: flex;
+    font-size: 3.5rem;
+    color: var(--main-color-brown);
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 1.5rem;
+}
+.section-title img{
+    padding: 0.5rem 1rem 0 1rem;
+    width: 6rem;
+}
+.places{
+    margin: 2rem;
+    background-color: var(--main-color-brown);
+    width: 45%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.places-img{
+    height:300px;
+    width:50%;
+    background-position:center;
+    background-size:cover;
+}
+.places-description{
+    padding: 2.5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.places-description p{
+    text-align: justify;
+    margin: 0;
+    line-height: 1.4rem;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 2rem 2rem 0 2rem;
+    justify-content: space-between;
+}
+.details p{
+    color: var(--main-color-brown);
+    margin: 0;
+}
+.route{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.shadow{
+    min-width: 150px;
+    min-height: 150px;
+    width: 13vw;
+    height: 13vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0);
+    transition: 0.4s cubic-bezier(0.7, 0.03, 0.4, 1);
+    border-radius: 20px;
+}
+.shadow:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+.route-img{
+    width: 7vw;
+}
+.route-map{
+    min-width: 150px;
+    min-height: 150px;
+    width: 13vw;
+    height: 13vw;
+    background-color: var(--main-color-brown);
+    border-radius: 20px;
+}
+.route-art{
+    min-width: 150px;
+    min-height: 150px;
+    width: 13vw;
+    height: 13vw;
+    background-color: var(--main-color-art);
+    border-radius: 20px;
+}
+.route-gastronomy{
+    min-width: 150px;
+    min-height: 150px;
+    width: 13vw;
+    height: 13vw;
+    background-color: var(--main-color-gastronomy);
+    border-radius: 20px;
+}
+.route-landscaping{
+    min-width: 150px;
+    min-height: 150px;
+    width: 13vw;
+    height: 13vw;
+    background-color: var(--main-color-landscaping);
+    border-radius: 20px;
+}
+.route-religious{
+    min-width: 150px;
+    min-height: 150px;
+    width: 13vw;
+    height: 13vw;
+    background-color: var(--main-color-religious);
+    border-radius: 20px;
+}
+.route-history{
+    min-width: 150px;
+    min-height: 150px;
+    width: 13vw;
+    height: 13vw;
+    background-color: var(--main-color-history);
+    border-radius: 20px;
+}
+.route-sport{
+    min-width: 150px;
+    min-height: 150px;
+    width: 13vw;
+    height: 13vw;
+    background-color: var(--main-color-sport);
+    border-radius: 20px;
+}
+.cabecera{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height:65px; 
+    padding: 1.5rem;   
+    align-items: center;
+}
+.img-back{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/orizabita.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.img-back-crafts{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bordados-principal.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.img-back-pulque{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/pulque-principal.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.img-back-cooking{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/cocina-principal.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.img-back-kiosk{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/quiosco-principal.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.img-back-chuch{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/iglesia-principal.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.img-back-photos{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fotografias-principal.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.img-back-government{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/delegacion-principal.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.img-back-vault{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/boveda.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.img-back-construction{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/tecnicas.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.img-back-arch{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/arcos.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.home-title{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10vw;
+    color: white;
+    bottom: -7rem;
+    right: 4rem;
+    line-height: 2rem;
+    text-align: right;
+}
+.home-subtitle{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    color: white;
+    right: 4.6rem;
+    bottom: 0.8rem;
+    text-align: right;
+}
+.container{
+    width: 100%;
+    max-width: 1800px;
+    margin: 2vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    line-height: 1.3em;
+    font-size: 2rem;
+}
+.header{
+    width: 100%;
+    display: flex;
+    background-color:transparent;
+    position: fixed; 
+}
+#btn-menu{
+    display: none;
+}
+/*CheckBoxMenu*/
+header label{
+    display: none;  
+}
+header label:hover{
+    cursor: pointer;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.hamburguer{
+    transition: 0.6s cubic-bezier(0.7, 0.03, 0.4, 1);
+    display: block;
+    width: 2rem;
+    position: absolute;
+    top: 5rem;
+}
+.cross{
+    transition: 0.8s cubic-bezier(0.7, 0.03, 0.4, 1);
+    display: block;
+    width: 2rem;
+    position: absolute;
+    top: 5rem;
+    transform: translateX(10rem);
+}
+.logo{
+    width: 10em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu ul{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 0.5rem 1.2rem;
+    text-align: right;
+    color:rgba(255, 255, 255,0.9);
+    font-size: 1.1rem;
+}
+.menu ul li a:hover{
+    box-shadow: inset 0px -2px 0px 0px white;
+    transition: all 0.5s cubic-bezier(.23,.53,.93,.72);
+    color: white;
+}
+.footer{
+    background: white;
+    padding: 3rem 0;
+}
+.footer div{
+    display: flex;
+    align-content: center;
+}
+ .footer div p{
+     margin: 0;
+     color: var(--main-color-brown);
+ }
+/*Menu Sticky*/
+.menu-fixed {
+    z-index:1000;
+	top:0;
+	width:100%;
+    box-shadow:0px 3px 5px rgba(0,0,0,.5);
+    background-color: var(--main-color-brown);
+    right: 0;
+    transition: all 0.5s cubic-bezier(0,.6,.8,.7);
+}
+.menu-fixed ul{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-items: center;
+}
+.menu-fixed ul li a{
+    display: block;
+    padding: 0.5rem 1.2rem;
+    text-align: center;
+    color:rgba(255, 255, 255,0.9);
+    font-size: 1.1rem;
+    transition: all 0.4s cubic-bezier(0,.6,.8,.7);
+}
+.menu-fixed .logo-nav-container{
+   align-items: center;
+   justify-content: space-between;
+}
+
+.menu-fixed .hamburguer{
+    transition: 0.6s cubic-bezier(0.7, 0.03, 0.4, 1);
+    display: block;
+    position: absolute;
+}
+.menu-fixed .cross{
+    transition: 0.8s cubic-bezier(0.7, 0.03, 0.4, 1);
+    display: block;
+    position: absolute;
+    transform: translateX(6rem);
+}
+.add-logo {
+    display: flex;  
+}
+/*Mostrar/Ocultar recorridos*/
+/*Boton1*/
+input[id^="spoiler"]{
+    display: none;
+    }
+    /* Estilo botón clicable */
+    input[id^="spoiler"] + label {
+    width: 13vw;
+    height: 13vw;
+    margin: 2rem 1rem 0 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    min-width: 150px;
+    min-height: 150px;
+    }
+    /* Estilo botón cuando su INPUT está seleccionado */
+    input[id^="spoiler"]:checked + label {
+    border-radius: 20px;
+    width: 13vw;
+    height: 13vw;
+    transition: 0.6s cubic-bezier(0.7, 0.03, 0.4, 1);
+    }
+    /* Estilo caja SPOILER (inicialmente oculto) */
+    input[id^="spoiler"] ~ .spoiler{
+        width: 0%;
+        margin-top: 2rem;
+    }
+    input[id^="spoiler"] ~ .spoiler p{
+      
+       font-size: 0rem;
+    }
+    input[id^="spoiler"] ~ .spoiler img{
+        width: 0%;
+     }
+    /* Estilo caja SPOILER cuando su INPUT está seleccionado */
+    input[id^="spoiler"]:checked + label + .spoiler{
+    background-color: var(--main-color-brown);
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+    transition: 0.6s cubic-bezier(0.7, 0.03, 0.4, 1);
+    }
+    input[id^="spoiler"]:checked + label + .spoiler p{
+        font-size: 1.1rem;
+        text-align: justify;
+        margin: 2rem;
+        }
+  input[id^="spoiler"]:checked + label + .spoiler  img{
+    width: 100%;
+        }

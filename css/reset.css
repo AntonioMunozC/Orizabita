@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    --main-color-brown: rgb(183,63,54);
+    --main-color-sport: rgb(241,207,39);
+    --main-color-history: rgb(87,172,203);
+    --main-color-religious: rgb(124, 175, 142);
+    --main-color-landscaping: rgb(61, 154, 65);
+    --main-color-gastronomy: rgb(156, 41, 98);
+    --main-color-art: rgb(129, 28, 58);
+    scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+h1{
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+}
+h2{
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    color: white;
+}
+h3{
+    padding-top: 0.6rem;
+    justify-items: center;
+    align-items: center;
+    font-size: 1rem;
+}
+p{
+    font-size: 1.1rem;
+    margin-bottom: 1.6em;
+    color:white;
+}
+a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+::-webkit-scrollbar{
+    width: 0.2em;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--main-color-brown);
+}
+/*Flex*/
+.d-fx{
+    display: flex;
+}
+.f-wp{
+    flex-wrap: wrap;
+}
+.f-cl{
+    flex-direction: column;
+}
+/*Alineacion*/
+.j-ct{
+    justify-content: center;
+}
+.j-st{
+    justify-content: start;
+}
+.j-sb{
+    justify-content: space-between;
+}
+.j-se{
+    justify-content: space-evenly;
+}
+.a-se{
+    align-content: space-evenly;
+}
+.a-ct{
+    align-content: center;
+}
+.a-sb{
+    align-content: space-between;
+}
+.tx-ct{
+    text-align: center;
+}
+.tx-jf{
+    text-align: justify;
+}

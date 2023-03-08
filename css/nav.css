@@ -1,0 +1,326 @@
+@media (max-width:1600px) and (min-width: 100px){
+    .home-title{
+        bottom: -5.7rem; 
+    }
+    .home-subtitle{
+        bottom: 0.6rem;
+    }
+    .container{
+        min-width: 400px;
+        margin: 0 auto;
+    }
+    .menu ul li a{
+        font-size: 1rem;
+    }
+    .about h2{
+        font-size: 1rem;
+    }
+    .about p , .introduction p{
+        font-size: 0.8em;
+        line-height: 1.4em;
+    }
+    .about-img{
+        width: 4rem;
+    }
+    .places-description p{
+        font-size: 0.8em;
+        line-height: 1.2em;
+    }
+}
+ @media (max-width:1400px) and (min-width: 100px){
+    .home-title{
+        bottom: -5rem;
+    }
+    .home-subtitle{
+        bottom: 0.6rem;
+    }
+   .menu ul{
+        align-items: end;
+        text-align: center;
+    }
+    .places{
+        width: 70%;
+    }
+}
+@media (max-width:1250px) and (min-width: 100px){
+    .home-title{
+       font-size: 12vw;
+       bottom: -6.5rem;
+       right: 4rem;
+       line-height: 8rem;
+    }
+    .home-subtitle{
+        bottom: 0.6rem;
+        font-size: 3vw;
+    }
+    .logo{
+        width: 9em; 
+        margin-left: 2vw;  
+    }
+    .menu ul{
+        padding-bottom: 1vh; 
+    }
+    .menu ul li{
+        width: 40%;   
+    }
+    .menu-fixed ul{
+        align-items: center;
+    }
+    .menu-fixed ul li{
+        width: 40%;
+    }
+    .menu-fixed ul li a{
+        text-align: center;
+    }
+    .menu ul li a{   
+        width: 100%;
+        color:white;
+        font-size: 1rem;
+    }
+    .menu ul li a:hover{ 
+        transition: all 0.4s cubic-bezier(0.7, 0.03, 0.4, 1);
+    }
+    .places{
+        width: 75%;
+    }
+}   
+@media only screen and (min-width: 50px) and (max-width:1100px){
+    .home-title{
+        bottom: -6.5rem;
+        right: 4rem;
+        line-height: 7rem;
+    }
+    .introduction{
+        width: 85%;
+    }
+    .logo{
+        width: 9em; 
+        margin-left: 1vw;  
+    }
+    .menu{
+        width: 100%;
+        position: fixed;
+        top:4rem;
+        min-width: 35%;
+        right: -100%;
+        transition: 0.2s cubic-bezier(0.7, 0.03, 0.4, 1);
+    }
+    .menu-fixed nav{
+        transition: 0.2s cubic-bezier(0.7, 0.03, 0.4, 1);
+        background-color:var(--main-color-brown);
+        top: 4.5rem;
+        width: 100%;
+    }
+   .menu-fixed .cabecera{
+        width: auto;
+   }
+    .menu ul{
+        flex-direction: column;
+       
+    }
+    .menu ul li{
+        justify-content: center;
+    }
+    header label{
+        display: block;
+    }
+    .hamburguer{
+        transition: 0.6s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.7rem;
+        position: absolute;
+        right: 3rem;
+        top: 1.8rem;
+    }
+    .cross{
+        transition: 0.8s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.7rem;
+        position: absolute;
+        right: 2.7rem;
+        top: 1.8rem;
+    }
+    .footer{
+        padding-top: 3rem;
+    }
+    .footer-container{
+        margin-bottom: 2vh;
+    }
+
+    #btn-menu:checked ~* .hamburguer{
+        transform: translatey(-8rem);
+        transition: all 0.5s;
+    }
+    #btn-menu:checked ~* .cross{
+        transform: translateX(-0.5rem);
+        transition: all 0.5s;
+    }
+    #btn-menu:checked ~* .menu{
+        right: 0;
+        transition: all 0.4s cubic-bezier(0,.6,.8,.7);
+    }
+    #btn-menu:checked ~* .menu li{
+        padding: 0 2.5rem;
+        text-align: left;
+        align-content: center;
+        transition: all 0.4s cubic-bezier(0,.6,.8,.7);
+    }
+}
+@media only screen and (min-width: 50px) and (max-width:850px){
+    .home-title{
+        line-height: 5rem;
+        right: 2.5rem;
+        bottom: -1rem;
+    }
+    .home-subtitle{
+        font-size: 7vw;
+        right: 2.9rem;
+        bottom: -1.3rem;
+    }
+    .menu{
+        top:75px;
+    }
+    .hamburguer{
+        transition: 0.6s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.5rem;
+        position: absolute;
+        right: 3rem;
+        top: 1.9rem;
+    }
+    .cross{
+        transition: 0.8s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.5rem;
+        position: absolute;
+        right: 2.7rem;
+        top: 1.9rem;
+        }
+    .places{
+        width: 90%;
+        height: 250px; 
+    }
+    .places-description{
+        padding: 1.5rem;
+    }
+    .places-img{
+        height: 250px;
+    }
+    .places-description h2{
+        font-size: 1rem;
+    }
+    .places-description p{
+        font-size: 0.7em;
+        line-height: 1.1em;
+    }
+    .route-img{
+        width: 9vw;
+    }
+    input[id^="spoiler"]:checked + label + .spoiler p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        text-align: justify;
+        margin: 1rem;
+        }
+}
+@media only screen and (min-width: 50px) and (max-width:550px){
+    .home-title{
+        bottom: -1rem;
+        line-height: 3.2rem;
+    }
+    .home-subtitle{
+        bottom: -1rem;
+    }
+    .section-title{
+        font-size:2.2rem
+    }
+    .section-title img{
+        padding: 0rem 0.8rem 0 0.8rem;
+        width: 4rem;
+    }
+    .hamburguer{
+        transition: 0.6s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.6rem;
+        position: absolute;
+    }
+    .cross{
+        transition: 0.8s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.6rem;
+        position: absolute;
+        }
+    .about{
+            min-width: 300px;
+            min-height: 300px;
+            padding: 1.5rem;
+    }
+    .about h2{
+        font-size: 0.8rem;
+    }
+    .about p , .introduction p{
+        font-size: 0.6em;
+        line-height: 1.3em;
+    }
+    .about-img{
+        width: 3rem;
+    }
+    .introduction{
+        width: 95%;
+    }
+    .places{
+        width: 95%;
+        height: 180px;
+        margin-right:0;
+        margin-left:0;
+    }
+    .places-img{
+        height: 180px;
+    }
+    .places-description{
+        padding: 1rem;
+    }
+    .places-description h2{
+        font-size: 0.8rem;
+        line-height: 1.2em;
+    }
+    .places-description p{
+        font-size: 0.6em;
+        line-height: 1.1em;
+    }
+    .places-description p a{
+        font-size: 1em;
+    }
+    .route-img{
+        width: 15vw;
+    }
+}
+@media only screen and (min-width: 50px) and (max-width:500px){
+    .home-title{
+        bottom: -1.5rem;
+    }
+    .places-description{
+        padding: 0.8rem;
+    }
+    .container{
+        min-width: 200px;
+        margin: 0 auto;
+    }
+    .hamburguer{
+        transition: 0.6s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.5rem;
+        position: absolute;
+        right:1.2rem;
+    }
+    .cross{
+        transition: 0.8s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.5rem;
+        position: absolute;
+        right:1.2rem;
+    }
+    #btn-menu:checked ~* .menu li{
+        padding: 0 0.5rem;
+    }
+}
